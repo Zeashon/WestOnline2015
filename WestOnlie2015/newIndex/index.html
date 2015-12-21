@@ -7,7 +7,7 @@
 		<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon" />
 		<title>西二在线</title>
 		<style>
-			body{background-image: url(img/13.png); width: 100%; height: 100%; background-size: 1366px 768px; max-width:1366px; max-height: 768px; overflow: hidden; }
+			body{width: 100%; height: 100%; overflow: hidden; }
 			#leftLogo{opacity: 1; animation: picAnimation 5s; -moz-animation:picAnimation 5s; /* Firefox */ -webkit-animation:picAnimation 5s; /* Safari and Chrome */ -o-animation:picAnimation 5s; /* Opera */}
 			@keyframes picAnimation
 			{
@@ -35,9 +35,12 @@
 		</style>
 	</head>
 	<body>
+		<div style="position:absolute; width:100%; height:100%; z-index:-1">
+			<img style="position:fixed;" src="img/indexBG.png" height="120%" width="100%" />
+		</div>
 		<div>
-			<span class="IndexNavi" style="">
-				<ul class="IndexNaviUl f14" style="">
+			<span class="IndexNavi">
+				<ul class="IndexNaviUl f14">
 					<li><a href="index.html" id="IndexNaviUlLiANow">首页</a></li>
 					<li><a href="news.html">新闻快报</a></li>
 					<li><a href="ourWork.html">作品展示</a></li>
@@ -56,10 +59,10 @@
 		</div>
 		<div>
 			<span>
-				<img src="img/infoCenterBack1.png" width="" style="position: fixed; top: 90px; left: 230px; display: block;"></img>
+				<img src="img/infoCenterBack.png" width="" style="position: fixed; top: 90px; left: 230px; display: block;"></img>
 			</span>
 			<span id="rightPic">
-				<img src="img/footBackground.png" style="position: fixed; top: 210px; left: 1160px; display: block;"></img>
+				<img src="img/footBackground.png" style="position: fixed; bottom: -150px; right:-60px; display: block;"></img>
 			</span>
 		</div>
 		<div class="indexFooter">
