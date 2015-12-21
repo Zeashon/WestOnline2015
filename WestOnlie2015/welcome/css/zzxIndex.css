@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{min-height:768px; min-width:1366px;}
+a{ text-decoration:none; color:RGB(0,123,187);}
+a:hover{color:RGB(0,28,83);}
+img{border:none;}
+.section { text-align: center; font: 1em "Microsoft Yahei"; color: #fff;}
+.section1{z-index:2; background-image:url(../IMG/computer.jpg); background-size:cover;}
+.west2title{ width:260px; height:80px; font-size: 35px; line-height: 80px; font-family: '微软雅黑'; color: white; position: absolute;top: 30%; left: 40.3%;  border:rgba(243,32,36,1.00) 1px solid;transition:all 2s;}
+.west2title:hover{ background-color:rgba(243,32,36,1.00) ; color: white; border-radius: 16px;}
+.membergo{position: absolute; top: 50%; left: 47.3%; padding-left:6px; padding-right:6px; border:rgba(253,11,15,1.00) 1px solid;  background-color:rgba(245,11,14,1.00); transition:all 2s; }
+.membergo:hover{ background-color:rgba(245,11,14,0); top: 60%; border-radius: 6px;}
+.section2{overflow:hidden; background-image: url(../IMG/p2-bg.jpg); background-size: cover; }
+.S2Small{ width:40%; height:50%; overflow:hidden;  background-image: url(../IMG/p2-bg.jpg);}
+.S2Small table tr td{padding:3px;}
+.S2Big{ width:60%; height:50%; overflow:hidden; background-color:RGB(53,53,53);  background-image: url(../IMG/p2-bg.jpg);}
+.S2Big table tr td{padding:3px;}
+.section2 img{ opacity:1; filter:alpha(opacity=70);}
+.section2 img:hover{ opacity:0.7; filter:alpha(opacity=100); -moz-transition: opacity .7s cubic-bezier(0.2, 0.4, 0.7, 0.8); -webkit-transition: opacity .7s cubic-bezier(0.2, 0.4, 0.7, 0.8); transition: opacity .7s cubic-bezier(0.2, 0.4, 0.7, 0.8);}
+.P2-0{position: absolute; top:-120%; background-color:white;  z-index:1;}
+.P2-1{position: absolute; top:0; right:-120%; background-color:white;}
+.P2-2{position: absolute; left:-120%; background-color:white;}
+.P2-3{position: absolute;right:0; bottom:-120%; background-color:white;}
+.section3{ z-index: 3;}
+.section3 p { position: relative; bottom: -120%; }
+.morework{ padding-left:50px; padding-right:50px; padding-bottom:30px; padding-top:30px; border-radius:12px; font-size:2em; color:black; background-color:rgba(23,153,236,1.00); border:1px solid rgba(23,153,236,1.00); transition:all 2s;}
+.morework:hover{ background-color:#7BAABE; border:rgba(158,247,255,1.00) 1px solid;}
+.section4{ position: relative; bottom: -120%; background-image:url(../IMG/4BG.jpg); background-size:cover;}
+.footerLeft {margin-bottom:-30px;}
+.cb{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.footer{background-color:RGB(0,89,119); border: none; width:100%; height:180px; color:RGB(15,15,15); box-shadow:-1px -1px 0 rgba(199,193,193,1.00); position:absolute; bottom:-220px;}
+.footer a{color:RGB(25,25,25);}
+.footer a:hover{color:rgba(255,255,255,1.00);}
+.lsn{list-style:none;}
+.tl{text-align:left;}
+.wel{position:absolute; top:-60%; left:38%; z-index:1;} 
+.welDown{position:absolute; left:43%; top:240%; width:324px;}
+.welDown a{ transition:background-color 2s; width:200px; line-height:40px; height:40px; color:black; border:rgba(26,125,226,1.00) 2px solid; border-radius:6px;}
+.welDown a:hover{color:black; border:rgba(129,184,240,1.00) 2px solid; background-color:rgba(26,125,226,1.00);}
+.fullPage-tooltip{color:#000000; font-family:"Microsoft Yahei";}
+.fade{background-color:RGB(51,51,51); width:100%; height:100%; opacity:0.6;}
+.copyright{width:100%; height:15px; margin:auto; position:absolute; font-size:0.8em; bottom:2px;}
+#infoMenu.whiteLinks li:nth-child(1) a,#infoMenu.whiteLinks li:nth-child(2) a,#infoMenu.whiteLinks li:nth-child(3) a{color:#fff}
+.1em{font-size:1em;}
+.08em{font-size: 0.8em;}
+.fb{ font-weight:bold;}

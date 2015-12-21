@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/zzx_index.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon" />
+		<title>新闻详情页</title>
+	</head>
+	<body>
+		<div>
+			<span class="IndexNavi" style="">
+				<ul class="IndexNaviUl f14" style="">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="news.html" id="IndexNaviUlLiANow">新闻快报</a></li>
+					<li><a href="ourWork.html">作品展示</a></li>
+					<li><a href="member.html">成员风采</a></li>
+					<li><a href="#">加入我们</a></li>
+				</ul>
+			</span>
+			<span><img src="img/logoB.png" style="position: fixed; top: 0;"></img></span>
+			<form action="#" enctype="text/plain" >
+				<input type="text" class="search" name="searchInput"/>
+				<input type="button" name="searchEnter" class="searchEnter"/>
+				<span class="searchEnterBG">
+					<img src="img/searchButton.png" width="20" height="20" />
+				</span>	
+			</form>
+		</div>
+        <div class="aboutUsMain">
+        	<div class="f20 fb lh200 tc">2014-2015工作室成员获奖情况汇总</div>
+        	<p class="tc f9">2015-08-08</p>
+        	<p class="tc f9">西二在线</p>
+        	<p class="p30 f14 pb5 fb">数计学院第一届趣味编程：</p>
+        	<p class="p30 f14 pb5 pt5">一等奖：ios版福大助手 吴先滇、吴泽钦、吴浩文 
+			<br />二等奖：1.&nbsp;安卓版福大助手 陈铭钦、李瑶池、檀灵潇&nbsp;&nbsp; 2.&nbsp;音乐网站letMeng 江佳扬、吴锦秋、
+			<br />三等奖：这个我记不清了</p>
+			<p class="p30 f14 pb5 fb">瑞芯微杯”互联创新大赛:</p>
+        	<p class="p30 f14 pb5 pt5">二等奖：李瑶池、陈铭钦、张华焱、檀灵潇</p>
+			<p class="p30 f14 pb5 fb">中国软件杯大学生软件设计大赛:</p>
+        	<p class="p30 f14 pb5 pt5">二等奖: 王洪根</p>
+			<p class="p30 f14 pb5 fb">中国大学生服务外包创新创业大赛:</p>
+        	<p class="p30 f14 pb5 pt5">一等奖： 王洪根、林世雄</p>
+			<p class="p30 f14 pb5 fb">海峡两岸创新创业大赛:</p>
+        	<p class="p30 f14 pb5 pt5">创业组：一等 王洪根、林世雄；</p>
+			<p class="p30 f14 pb5 pt5">百度91：三等 王洪根、林世雄；</p>
+			<p class="p30 f14 pb5 fb">微软创新杯：</p>
+        	<p class="p30 f14 pb5 pt5">二等奖：李瑶池</p>
+			<p class="p30 f14 pb5 fb">福州大学第四届大学生创意设计作品竞赛:</p>
+        	<p class="p30 f14 pb5 pt5">二等奖： 吴泽钦、李瑶池、陈铭钦</p>
+			<p class="p30 f14 pb5 fb">福州大学第十二届“挑战杯“大学生课外科技作品竞赛:</p>
+        	<p class="p30 f14 pb5 pt5">一等奖： 吴先滇、吴泽钦、李瑶池、陈铭钦、檀灵潇、吴浩文</p>
+			<p class="p30 f14 pb5 fb">第六届“蓝桥杯”:</p>
+        	<p class="p30 f14 pb5 pt5">一等奖： 陈铭钦<br />三等奖： 江佳扬</p>
+			<p class="p30 f14 pb5 fb">ACM竞赛:</p>
+        	<p class="p30 f14 pb5 pt5">2014年11月ACM ICPC广州赛区银奖、12月上海赛区铜奖  陈铭钦</p>
+			<p class="p30 f14 pb5 fb">奖学金：</p>
+        	<p class="p30 f14 pb5 pt5">一等：林威（2）、陈铭钦（2）、马凛凛（1） 计5人次
+			<br />二等奖：陈铭钦（1）、叶倩（1）、胡心颖（1）、江嗣嘉（1）、郑家兴（1）、 计5次
+			<br />三等奖：叶倩（1）、吴锦秋（1）、杨莹（1）、廖子斌（1）、马凛凛（2）、乐一泽（2）、郑家兴（2）、李瑶池（1） 计11次
+			<br />单科：洪伟鹏（2）、孙元臻（1）、叶倩（1）、李瑶池（1）、王艳红（1） 计6人次
+			</p>
+        	<br /><br />
+        </div>
+        <div class="comFooter">
+			<a href="aboutUs.html" style="" class="footerItem fl w80 h40 ml30">关于我们</a>
+			<a href="http://www.w2fzu.com/join/" class="footerItem fl w80 h40">加入我们</a>
+			<a href="mailto:west2gold@qq.com" class="footerItem fl w80 h40">联系我们</a>
+			<a href="http://www.w2fzu.com/" class="footerItem fl w80 h40">&copy;西二在线</a>
+			<a href="http://weibo.com/west2gold" class="comweibo fl mt5"></a>
+			<a href="#" class="comweixin fl ml5"></a>
+		</div>
+	</body>
+</html>
